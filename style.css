@@ -2,6 +2,7 @@ body{
 	overflow:auto;
 	margin: 0;
   	padding: 0;
+  	background-color: #F2F2F2;
 }
 
 h2{
@@ -12,6 +13,7 @@ h2{
 	background-color: #6DA6A0;
 	display: inline-block;
 	padding:2px;
+	margin-right:5px;
 }
 
 p{
@@ -22,16 +24,17 @@ p{
 
 #entete{
 	display:grid;
-	width:100%;
 	grid-row-gap: 0;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	text-align:center;
 	vertical-align: center;
+	font-family: "Bodoni", serif;
 }
 
 #titre{
 	min-height:50pt;
 	line-height:50pt;
-	grid-column : 1/7;
+	grid-column : 1/8;
 	grid-row:1;
 	background-color: #192E40;
 	color: white;
@@ -47,6 +50,7 @@ p{
 	background-color: #6DA6A0;
 	color:#F2F2F2;
 	font-weight:bold;
+	border-left: 1px solid #F2F2F2;
 }
 
 .menuopt{
@@ -54,8 +58,7 @@ p{
 }
 
 #corps{
-	padding:8px;
-	width:100%;
+	padding:10px;
 	background-color: #F2F2F2;
 }
 
